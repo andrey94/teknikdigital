@@ -1,0 +1,7 @@
+body {
+    background-color:#275181 !important
+}
+
+#divDetails .active {
+    visibility: visible;
+}
