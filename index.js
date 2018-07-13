@@ -1,3 +1,7 @@
+window.onpopstate = (function(){
+	btnBack_onClick();
+})
+
 function btnDetails_onClick(bgcolorcode, title){
     $('#divDetails').css('visibility', 'visible');
     $('#divDetails').css('background-color', bgcolorcode)
@@ -7,7 +11,7 @@ function btnDetails_onClick(bgcolorcode, title){
 }
 
 function btnBack_onClick(){
-    $('#divDetails').css('visibility', 'hidden');
+	$('#divDetails').css('visibility', 'hidden');
 
     var title = $('#detailsTitle').html();
     $('#form' + title).css('display', 'none');
