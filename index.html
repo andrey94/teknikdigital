@@ -100,7 +100,7 @@
                                 <td style="width:20%;">
                                     <div style="border:2px solid black;"></div>
                                 </td>
-                                <td style="margin:0;">
+                                <td>
                                     <div style="position:absolute; z-index:1; width:100px; height:100px; -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 50%); clip-path: polygon(0% 0%, 0% 100%, 100% 50%); background-color:black;"></div>
                                     <div style="position:relative; z-index:1; width:100px; height:100px; -webkit-clip-path: polygon(3% 6%, 3% 94%, 94% 50%); clip-path: polygon(3% 6%, 3% 94%, 94% 50%); background-color:white;"></div>
                                 </td>
@@ -120,27 +120,55 @@
                 
                 
             </form>
-            <form id="formAND" onclick="resultAND.value=parseInt(aAND.innerHTML)&parseInt(bAND.innerHTML)" style="display:none; text-align:center; margin:10vw;">
-                <table>
-                    <tr>
-                        <td>
-                            <input type="button" value="    " style="background-color:#00FF00; border-radius:50%; border:6px solid black; width:100px; height:100px;" onclick="aAND.innerHTML = btnSwitch(this, parseInt(aAND.innerHTML))"/>
-                            <label id="aAND" style="font-size:40px;">0</label>
-                        </td>
-                        <td rowspan="2">
-                            <span style="font-size:40px;">-------------------------------></span>
-                        </td>
-                        <td rowspan="2">
-                            <output name="resultAND" style="font-size:40px;">0</output>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="button" value="    " style="background-color:#00FF00; border-radius:50%; border:6px solid black; width:100px; height:100px;" onclick="bAND.innerHTML = btnSwitch(this, parseInt(bAND.innerHTML))"/>
-                            <label id="bAND" style="font-size:40px;">0</label>
-                        </td>
-                    </tr>
-                </table>
+            <form id="formAND" onclick="resultAND.value=parseInt(aAND.innerHTML)&parseInt(bAND.innerHTML)" style="width:100%; height:90vh; display:none; text-align:center;">
+                <div style="z-index:1; position:absolute; display:table; width:inherit; height:inherit;">
+                    <table style="display:table-cell; vertical-align:middle; width:inherit; height:inherit;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="button" value="" style="outline:0; background-color:#00FF00; border-radius:50%; width:50px; height:50px; border:6px solid black;" onclick="aAND.innerHTML = btnSwitch(this, parseInt(aAND.innerHTML))"/>
+                                </td>
+                                <td><label id="aAND" style="font-size:40px;">0</label></td>
+                                <td style="width:20%;">
+                                    <div style="border:2px solid black;"></div>
+                                </td>
+                                <td rowspan="3">
+                                    <div style="width:100px; height:100px; background-color:white; border:4px solid black; border-radius:0px 50px 50px 0px;"></div>
+                                </td>
+                                <td rowspan="3">
+                                    <input type="button" value="" style="border-radius:50%; background-color:transparent; width:20px; height:20px; border:4px solid black;"/>
+                                </td>
+                                <td rowspan="3" style="width:20%;">
+                                    <div style="border:2px solid black;"></div>
+                                </td>
+                                <td rowspan="3"><label><output name="resultAND" style="font-size:40px;">1</output></label></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" value="" style="outline:0; background-color:#00FF00; border-radius:50%; width:50px; height:50px; border:6px solid black;" onclick="bAND.innerHTML = btnSwitch(this, parseInt(bAND.innerHTML))"/>
+                                </td>
+                                <td><label id="bAND" style="font-size:40px;">0</label></td>
+                                <td style="width:20%;">
+                                    <div style="border:2px solid black;"></div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>                    
+                </div>
             </form>
             <form id="formOR" onclick="resultOR.value=parseInt(aOR.innerHTML)|parseInt(bOR.innerHTML)" style="display:none; text-align:center; margin:10vw;">
                 <table>
