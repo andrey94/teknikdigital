@@ -8,6 +8,9 @@ function btnDetails_onClick(bgcolorcode, title){
     $('#detailsTitle').html(title);
     $('#form' + title).css('display', 'block');
     // alert('active');
+	
+	// https://developer.mozilla.org/en-US/docs/Web/API/History_API
+	window.history.pushState({ state: "details" }, 'page 2' ,'#details');
 }
 
 function btnBack_onClick(){
