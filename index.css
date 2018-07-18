@@ -4,9 +4,15 @@ body {
     height:100%;
 }
 
-#home #title {
+#home .subtitle {
+    font-size:3vw;
+    line-height:0.3;
+    color:white;
+}
+
+#home .title {
     color:#FDDD17; 
-    font-size:9vw; 
+    font-size:10.5vw; 
     line-height:0.8;
 
     text-shadow: 1px -1px 0px #5E5C5C, 
