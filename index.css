@@ -1,7 +1,53 @@
 body {
-    background-color:#275181 !important
+    background-color:#1CA9B0 !important;
+    width:100%;
+    height:100%;
+}
+
+#home #title {
+    color:#FDDD17; 
+    font-size:9vw; 
+    line-height:0.8;
+
+    text-shadow: 1px -1px 0px #5E5C5C, 
+                2px -2px 0px #5E5C5C,
+                3px -3px 0px #5E5C5C,
+                4px -4px 0px #5E5C5C,
+                5px -5px 0px #5E5C5C,
+                6px -6px 0px #5E5C5C,
+                7px -7px 0px #5E5C5C,
+                8px -8px 0px #5E5C5C,
+                9px -9px 0px #5E5C5C,
+                10px -10px 0px #5E5C5C,
+
+                -1px 1px 0px #322B2A,
+                -2px 2px 0px #322B2A,
+                -3px 3px 0px #322B2A,
+                -4px 4px 0px #322B2A,
+                -5px 5px 0px #322B2A,
+                -6px 6px 0px #322B2A,
+                -7px 7px 0px #322B2A,
+                -8px 8px 0px #322B2A,
+                -9px 9px 0px #322B2A,
+                -10px 10px 0px #322B2A,
+                -11px 11px 0px #322B2A,
+                -12px 12px 0px #322B2A,
+                -13px 13px 0px #322B2A,
+                -14px 14px 0px #322B2A,
+                -15px 15px 0px #322B2A,
+                -16px 16px 0px #322B2A,
+                -17px 17px 0px #322B2A,
+                -18px 18px 0px #322B2A,
+                -19px 19px 0px #322B2A,
+                -20px 20px 0px #322B2A
+
 }
 
 #divDetails .active {
     visibility: visible;
+}
+
+
+#simulasi {
+    background-color:#275181 !important;
 }
