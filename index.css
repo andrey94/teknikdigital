@@ -4,6 +4,10 @@ body {
     height:100%;
 }
 
+.nav .nav-item .nav-link {
+    padding: 0;
+}
+
 #home .subtitle {
     font-size:3vw;
     line-height:0;
